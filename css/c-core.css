@@ -1,0 +1,32 @@
+/* start c-item */
+ul.c-other,
+ul.c-other > li{
+    width: 100%;
+}
+ul.c-other li li{
+    float: left;
+    width: 33%;
+}
+.c-list50 li,
+.c-column > li li{
+    float: left;
+    width: 50%;
+}
+.c-column > li{
+    width: 100%;
+}
+.c-column > li h4,
+.c-list45 h4{
+    width: 100%;
+    box-sizing: border-box;
+}
+.c-list33 > li li{
+    width: 33%;
+}
+.c-list45 .c-column{
+    margin-left: auto;
+}
+.c-list45 .c-column >li{
+    width: 100%;
+    margin-left: 0;
+}

@@ -1,0 +1,136 @@
+html,body,#guide{height: 100%;overflow: hidden;}
+/* start g-cont */
+#g-cont{
+    position: relative;
+    height: 100%;
+    transition: top 1s;
+}
+#g-cont .g-item{
+    position: relative;
+    height: 100%;
+}
+#g-cont .g-item1{
+    background: url('../images/GuidePages/bg01.png') fixed center/cover;
+}
+#g-cont .g-item2{
+    background: url('../images/GuidePages/bg02.jpg') fixed center/cover;
+}
+#g-cont .g-item3{
+    background: url('../images/GuidePages/bg03.jpg') fixed center/cover;
+}
+#g-cont .g-item4{
+    background: url('../images/GuidePages/bg04.jpg') fixed center/cover;
+}
+/* same */
+.g-box{
+    padding-top: 5%;
+}
+.g-box .g-top{
+    margin-bottom: 3.5%;
+    text-align: center;
+    white-space: pre;
+}
+.g-box .g-top img{
+    padding-bottom: 31px;
+    text-align: center;
+}
+/* start 第一屏*/
+.g-item1 .g-case{
+    height: 542px;
+    background: url('../images/GuidePages/bg01-i.png') no-repeat center;
+}
+/* end 第一屏 */
+/* start 第二屏*/
+.g-item2 .g-list{
+    margin-left: -58px;
+}
+.g-item2 .g-list li{
+    float: left;
+    margin-left: 58px;
+    color: #ccc;
+    font-size: 22px;
+    text-align: center;
+}
+.g-item2 .g-list li p{
+    line-height: 83px;
+}
+.btn{
+    display: block;
+    width: 137px;
+    height: 44px;
+    border: 1px solid #4d5860;
+    color: #fff;
+    font-size: 14px;
+    font-family: '宋体';
+    text-align: center;
+    line-height: 44px;
+}
+.g-item2 .btn{
+    margin: 79px auto 0;
+}
+/* 第三屏*/
+.g-item3 .g-box{
+    padding-top: 14.1%;
+}
+.g-item3 .g-left{
+    position: absolute;
+    top: 0;bottom: 0;
+    width: 553px;
+    height: 274px;
+    margin: auto;
+    text-align: left;
+}
+.g-item3 .g-left img{
+    padding-bottom: 37px;
+}
+.g-item3 .g-left .btn{
+    margin-top: 43px;
+}
+.g-item3 .g-right{
+    width: 22.6%;
+}
+.g-item3 .g-right img{
+    width: 100%;
+    height: auto;
+}
+/* 第四屏 */
+.g-item4 img{
+    float: right;
+    margin-top: 171px;
+    margin-right: 175px;
+}
+.g-item4 p{
+    position: absolute;
+    right: 115px;
+    top: 75px;
+    color: #fff;
+    font-size: 20px;
+}
+.g-item4 p a{
+    margin-left: 30px;
+}
+/* end g-cont */
+/* start g-nav */
+#g-nav{
+    position: fixed;
+    left: 40px;
+    top: 40px;
+}
+/* end g-nav */
+/* start g-l-nav */
+#g-l-nav{
+    position: fixed;
+    right: 53px;
+    top: 50%;
+    width: 14px;
+}
+#g-l-nav li{
+    height: 14px;
+    margin-bottom: 42px;
+    background: url('../images/GuidePages/icon_small.png') no-repeat center;
+    cursor: pointer;
+}
+#g-l-nav li.change{
+    background: url('../images/GuidePages/icon_big.png') no-repeat center/cover;
+}
+/* end g-l-nav */

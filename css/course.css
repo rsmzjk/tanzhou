@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-26 13:37:05
+ * @version $Id$
+ */
+/* start bann*/
+.h-ban{
+    background-image: url('../images/course/banner.png');
+}
+/* end bann */
+/* start c-wrap */
+.c-wrap{
+    height: 116px;
+    background-color: #f8f9fa;
+}
+.c-wrap ul{
+    height: inherit;
+    border-left: 1px solid #e6e6e6;
+}
+.c-wrap li{
+    float: left;
+    position: relative;
+    width: 20%;
+    height: inherit;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e6e6;
+    cursor: pointer;
+    transition: background .5s;
+}
+.c-wrap li .c-img{
+    float: left;
+    position: absolute;
+    left: 15px;
+    top: 31px;
+    width: 61px;
+    height: 54px;
+    line-height: 52px;
+    text-align: center;
+    overflow: hidden;
+}
+.c-wrap li .c-img .c-imgbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: top .5s;
+}
+.c-wrap li .c-title{
+    padding-top: 26px;
+    padding-left: 90px;
+}
+.c-wrap li h3{
+    color: #666;
+    font-size: 26px;
+    font-weight: bold;
+}
+.c-wrap li label{
+    color: #999;
+    cursor: pointer;
+}
+/* start hover/on */
+.c-wrap li.on,
+.c-wrap li:hover {
+    background-color: #09cbd7;
+}
+.c-wrap li.on .c-imgbox,
+.c-wrap li:hover .c-imgbox{
+    top: -100%;
+}
+.c-wrap li.on h3,
+.c-wrap li.on label,
+.c-wrap li:hover h3,
+.c-wrap li:hover label{
+    color: #fff;
+}
+/* end hover/on */
+/* end c-wrap */
+/* start c-item */
+.c-box{
+    margin-top: 40px;
+    background-color: #f8f9fa;
+}
+.c-top h3{
+    padding: 61px 0 36px 0;
+}
+.c-item{
+    margin-bottom: 100px;
+    padding: 37px 0 60px 0;
+}
+.c-item h4{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 25px 0 21px;
+    background-color: #09cbd7;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+.c-item ul ul{
+    padding: 14px 0 25px;
+}
+.c-list > ul > li{
+    float: left;
+}
+.c-item ul ul li{
+    background: url('../images/course/disc.png') no-repeat 21px center;
+    text-indent: 40px;
+    line-height: 23px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.c-list45 > ul{
+    margin-left: -100px;
+}
+.c-list45 > ul > li{
+    width: 450px;
+    margin-left: 100px;
+}
+/* start c-case */
+.c-title{
+    padding: 60px 0 37px;
+}
+.c-case h4{
+    width: 100%;
+    background-color: #ccc;
+    box-sizing: border-box;
+    color: #000;
+}
+.c-case ul{
+    min-height: 260px;
+    background-color: #ededed;
+    box-sizing: border-box;
+}
+.c-case ul li{
+    padding: 31px 0 31px 30px;
+}

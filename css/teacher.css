@@ -1,0 +1,70 @@
+/* start bann*/
+.h-ban{
+    background-image: url('../images/teacher/banner.png');
+}
+/* end bann */
+/* start top */
+.c-box .c-top{
+    padding: 111px 0 77px 0;
+    color: #18191a;
+    text-align: center;
+}
+.c-box .c-top h3{
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+/* end top */
+/* start list */
+.c-box .c-blist{
+    padding-bottom: 81px;
+}
+.c-box .c-blist li{
+    margin-bottom: 40px;
+    background-color: #f5f6f7;
+    overflow: hidden;
+}
+.c-box .c-blist li img{
+    float: left;
+}
+.c-box .c-blist li div{
+    float: left;
+    width: 913px;
+    height: 184px;
+    padding: 40px;
+}
+.c-box .c-blist div .c-btitle{
+    padding-bottom: 18px;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.c-box .c-blist div .c-btitle i{
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #09cbd7;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.c-box .c-blist div .c-btitle span{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.c-box .c-blist div .c-bdesc{
+    padding-bottom: 21px;
+    color: #666;
+    text-indent: 2em;
+    line-height: 26px;
+}
+.c-box .c-blist div .c-binfo{
+    background: url('../images/teacher/ico.png') no-repeat left center/16px 16px;
+    color: #09cbd7;
+    text-indent: 1.5em;
+}
+/* end list */

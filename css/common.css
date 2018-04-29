@@ -1,0 +1,50 @@
+/* start header */
+.h-box .h-navbox{
+    height: 92px;
+    line-height: 92px;
+    background-color: #1d2124;
+}
+.h-index{
+    height: 893px;
+    background: url('../images/index/header/banner.jpg') no-repeat center top;
+}
+.h-index .h-navbox{
+    background-color: transparent;
+}
+.h-box .h-navbox .h-navli li{
+    float: left;
+    margin-left: 45px;
+    color: #fff;
+}
+.h-box .h-navbox .h-navli li a.on,
+.h-box .h-navbox .h-navli li a:hover{
+    color: #09cbd7;
+}
+/* end header */
+/* start bann*/
+.h-ban{
+    position: relative;
+    height: 478px;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* end bann */
+/* start footer */
+#footer{
+    height: 196px;
+    background-color: #1a1a1a;
+}
+.f-box{
+    padding-top: 70px;
+    color: #999;
+    font-size: 14px;
+}
+.f-box p{
+    padding-bottom: 21px;
+}
+.f-box p a{
+    margin-right: 8px;
+}
+/* end footer */

@@ -1,0 +1,43 @@
+/* start c-item */
+
+
+
+ .c-list > ul > li{
+    width: 450px;
+    margin-left: 100px;
+}
+.c-item li.c-item1{
+    background: none;
+    font-size: 16px;
+    text-indent: 21px;
+}
+.c-item li + li.c-item1{
+    padding-top: 10px;
+}
+/* start c-other */
+.c-other{
+    clear: both;
+}
+.c-other h4{
+    width: 100%;
+    box-sizing: border-box;
+}
+.c-item .c-other ul{
+    min-height: 187px;
+    padding: 11px 0;
+    background-color: #ededed;
+}
+.c-item .c-other li{
+    color: #333;
+    line-height: 33px;
+}
+.c-other li span{
+    padding-right: 11px;
+    color: #000;
+    font-weight: bold;
+}
+/* start c-case */
+.c-case{
+    margin-top: 40px;
+}
+/* end c-item */
