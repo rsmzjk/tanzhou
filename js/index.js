@@ -1,4 +1,37 @@
+//banner
 
+$(function(){
+    var oHeader = $('#header'),
+        oHBox = oHeader.find('.h-box'),
+        aTab = oHBox.find('.h-ban .h-tab .tab'),
+        length = aTab.length,
+        num = 0,
+        clickTimer = 0,
+        timer;//时间管理器
+    //初始化样式
+    aTab.eq(num).addClass('active');
+
+    //按钮点击事件
+    aTab.click(function(){
+        if (new Date() - clickTimer > 500) {
+            oHBox.toggleClass('active');
+            $(this).addClass('active').siblings().removeClass('active');
+            clickTimer = new Date;
+        }
+    });
+    //自动路边
+    function autoPlay(){
+        num++;
+        num%=length;
+        oHBox.toggleClass('active');
+        aTab.eq(num).addClass('active').siblings().removeClass('active');
+    }
+    oHeader.hover(function(){
+        clearInterval(timer);
+    }, function(){
+        timer = setInterval(autoPlay,2500) ;
+    }).trigger('mouseleave');
+});
 
 //金牌讲师 Gold medal lecturer
 $(function(){
@@ -25,7 +58,8 @@ $(function(){
                 },300,function(){
                     $(this).css('marginLeft', '0px').prepend($(this).children().last());
                 })
-            }
+            };
+            clickTimer = new Date;
         }
     })
     //公式提取

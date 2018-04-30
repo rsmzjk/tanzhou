@@ -22,20 +22,22 @@
     border-radius: 5px;
     background: #09cbd7 url('../images/index/header/MORE.png') center no-repeat;
 }
-.h-btn{
+.h-tab{
     position: absolute;
     bottom: 43px;
     width: 100%;
     text-align: center;
 }
-.h-btn .btn{
+.h-tab .tab{
     display: inline-block;
     width: 18px;
     height: 4px;
     margin: 0 3px;
     background-color: #fff;
+    cursor: pointer;
+    transition: background-color .5s;
 }
-.h-btn .active{
+.h-tab .active{
     background-color: #09cbd7;
 }
 /* end h-ban*/

@@ -6,7 +6,13 @@
 }
 .h-index{
     height: 893px;
-    background: url('../images/index/header/banner.jpg') no-repeat center top;
+    background-image: url('../images/index/header/banner.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    transition: background-image .5s;
+}
+.h-index.active{
+    background-image: url('../images/index/header/banner-02.png');
 }
 .h-index .h-navbox{
     background-color: transparent;
